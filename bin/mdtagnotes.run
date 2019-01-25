@@ -1,0 +1,9 @@
+#!/bin/sh
+
+#PROGDIR=$(dirname $(readlink -e $0))
+#LD_LIBRARY_PATH=$PROGDIR/lib:${LD_LIBRARY_PATH}
+LD_LIBRARY_PATH=$PWD/lib:${LD_LIBRARY_PATH}
+#export QT_QPA_PLATFORM_PLUGIN_PATH=$PROGDIR/platforms
+export LD_LIBRARY_PATH
+#$PROGDIR/mdtagnotes
+$PWD/mdtagnotes
