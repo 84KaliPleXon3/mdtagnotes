@@ -2,4 +2,5 @@ MD Tag Notes 0.3.5 beta
 MD Tag Notes one more program for text notes. It keep it simple... For fast work and minimum size.
 Notes are grouped by tags. Note may have multiple tags. Sqlite is used to store data.
 0.3.5 - More independent text area behavior. May open editor window separately. Minor fixes.
+The AppImage in https://www.linux-apps.com/p/1286072/. It may be portable.
 
