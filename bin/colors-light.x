@@ -17,7 +17,8 @@ It's not real XML...
     <hlRule><name>attention</name><color>#e45649</color><hlPattern>^![^\n]*</hlPattern></hlRule>
     <hlRule><name>header</name><color>#9e039c</color><hlPattern>^\.[^\.][^\n]+</hlPattern></hlRule>
     <hlRule><name>important words</name><color>#9a6b04</color><hlPattern>(^|(?<=[^ ]))  \S([^\n]+?)  </hlPattern></hlRule>
-    <hlRule><name>comment</name><color>#999999</color><hlPattern>^[=|\?][^=\?][^\n]*</hlPattern></hlRule>
+    <hlRule><name>in question</name><color>#038ba8</color><hlPattern>^\?[^\?][^\n]*</hlPattern></hlRule>
+    <hlRule><name>comment</name><color>#999999</color><hlPattern>^=[^=][^\n]*</hlPattern></hlRule>
     <hlRule><name>command</name><color>#c84b3f</color><hlPattern>^\$[^\$][^\n]+</hlPattern></hlRule>
 </hlType>
 <hlType>
