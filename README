@@ -1,7 +1,8 @@
-MD Tag Notes 3.3.4
+MD Tag Notes 3.3.6
 
 MD Tag Notes one more program for text notes. It keep it simple... For fast work and minimum size.
 Notes are grouped by tags. Note may have multiple tags. Sqlite is used to store data.
+3.3.6 - Minor fixes.
 3.3.4 - Keeps focus when saving note. Minor fixes.
 3.3.1 - Tabs. First tab is default, others are pinned. The tab have context menu.
 2.3.2 - With DB encryption option. It may be less reliable. NO WARRANTY! See the license of QtCipherSqlitePlugin (https://github.com/devbean/QtCipherSqlitePlugin). I used the default settings. As I understand it is ChaCha20 with Poly1305 MAC, PBKDF2 with SHA256 (64007 iterations). Encryption commands are in notebooks context menu.
